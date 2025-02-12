@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Assistant:wght@200..800&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+.hero-section{
+    height: 100vh;
+    background: url('/bgImage.jpg') center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3rem 4rem;
+    
+}
+.hero-section .content-container{
+    max-width: 600px;
+}
+.hero-section .content-container h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.hero-section .content-container p{
+    font-size: 24px;
+}
+.hero-section .content-container .buttons-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+.hero-section .content-container .buttons-container button{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.hero-section .content-container .buttons-container .book-call{
+    background: #EBD0BC;
+}
+.hero-section .content-container .buttons-container .contact{
+    background: none;
+    border: 1px solid #EBD0BC;
+    color: #EBD0BC;
+
+}

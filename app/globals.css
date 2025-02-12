@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Assistant:wght@200..800&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Lora", serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
