@@ -1,0 +1,90 @@
+.industriesSection {
+    /* max-width: 1200px; */
+    /* margin: auto; */
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #dbf0fd;
+}
+
+.subheading {
+    color: #b3955a;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.heading {
+    color: #1c2b40;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sliderContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+    gap: 2rem; 
+    flex-wrap: nowrap; 
+    width: calc(200%); 
+}
+
+.industryCard {
+    min-width: 350px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardContent {
+    padding: 20px;
+}
+
+.cardTitle {
+    color: #1c2b40;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cardDesc {
+    color: #666;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+.exploreLink {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.exploreLink:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .industriesSection {
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .industryCard {
+        min-width: 300px; /* Adjust card width for smaller screens */
+    }
+}
