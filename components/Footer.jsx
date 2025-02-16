@@ -45,7 +45,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="footer-bottom">
-        <p>Copyright © 2023 J.K Lampart & Co Advocates. All Rights Reserved</p>
+        <p>Copyright © 2025 J.K Lampart & Co Advocates. All Rights Reserved</p>
       </div>
     </footer>
   );

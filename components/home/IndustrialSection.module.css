@@ -1,9 +1,9 @@
 .industriesSection {
+    /* max-width: 1200px; */
+    /* margin: auto; */
     padding: 4rem 2rem;
     text-align: center;
     background-color: #dbf0fd;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 .subheading {
@@ -28,9 +28,9 @@
 
 .slider {
     display: flex;
-    gap: 2rem;
-    flex-wrap: nowrap;
-    width: calc(200%);
+    gap: 2rem; 
+    flex-wrap: nowrap; 
+    width: calc(200%); 
 }
 
 .industryCard {
@@ -65,7 +65,7 @@
 .exploreLink {
     display: inline-block;
     margin-top: 15px;
-    color: #007bff;
+    color: #1c2b40;
     font-weight: 600;
     text-decoration: none;
 }
@@ -73,7 +73,21 @@
 .exploreLink:hover {
     text-decoration: underline;
 }
-
+.buttonContainer{
+    padding-top: 3rem;
+}
+.buttonContainer .viewAll{
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    background-color: #1c2b40;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.buttonContainer .viewAll:hover{
+    color: #EBD0BC;
+}
 /* Responsive Styles */
 @media (max-width: 1024px) {
     .industriesSection {
@@ -88,13 +102,11 @@
         min-width: 300px; /* Adjust card width for smaller screens */
     }
 }
-
-@media (max-width: 768px) {
-    .industryCard {
-        min-width: 250px; /* Further reduce for mobile */
+@media (max-width: 798px) {
+    .industriesSection h1{
+        font-size: 2rem;
     }
-
-    .slider {
-        gap: 1rem; /* Reduce gap for smaller screens */
+    .buttonContainer{
+        padding-top: 1rem;
     }
 }
