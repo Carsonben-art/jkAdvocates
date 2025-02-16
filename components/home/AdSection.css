@@ -1,0 +1,38 @@
+.ad-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem 3rem;
+    background: #5c7291;
+}
+.ad-section .text-container{
+    max-width: 600px;
+}
+.ad-section .text-container h1{
+    font-size: 3rem;
+    color: #ffffff;
+}
+.ad-section .buttons-container{
+    display: flex;
+    gap: 2rem;
+}
+.ad-section .buttons-container button {
+    width: auto;
+    height: 60px;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.ad-section .buttons-container .consultation{
+    background: #EBD0BC;
+}
+.ad-section .buttons-container .contact{
+    border: 1px solid #EBD0BC;
+    color: #EBD0BC;
+    background-color: transparent;
+}

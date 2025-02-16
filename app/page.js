@@ -1,3 +1,4 @@
+import AdSection from "@/components/home/AdSection";
 import CoreValues from "@/components/home/CoreValues";
 import Hero from "@/components/home/Hero";
 import IndustriesSection from "@/components/home/IndustriesSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <LawyerSection />
       <IndustriesSection />
       <StatsSection />
+      <AdSection />
     </div>
   );
 }
