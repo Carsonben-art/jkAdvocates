@@ -48,7 +48,7 @@ const Hero = () => {
             whileHover="hover"
             variants={buttonVariants}
           >
-            +2547 94437 498
+            +2547 1233 2667
           </motion.button>
         </div>
       </div>

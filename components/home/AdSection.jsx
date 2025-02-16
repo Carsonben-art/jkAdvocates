@@ -10,7 +10,7 @@ const AdSection = () => {
       </div>
       <div className="buttons-container">
             <button className="consultation"> <TiMessageTyping /> Free consultation</button>
-            <button className="contact"> <MdOutlineSettingsPhone /> +2547 9443 7498</button>
+            <button className="contact"> <MdOutlineSettingsPhone /> +2547 1233 2667</button>
       </div>
     </div>
   )
