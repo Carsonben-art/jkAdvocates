@@ -20,7 +20,7 @@ const Navbar = () => {
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About</Link></li>
-          <li><Link href="/industries">Industry</Link></li>
+          <li><Link href="/industry">Industry</Link></li>
           <li><Link href="/contact">Contact</Link></li>
           <li className="nav-button">
             <Link href="#">
