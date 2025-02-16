@@ -35,7 +35,7 @@ const IndustriesSection = () => {
   return (
     <section className={styles.industriesSection}>
       <h4 className={styles.subheading}>Our Practice Areas</h4>
-      <h1 className={styles.heading}>Comprehensive Legal Solutions: Protecting Your Business, Assets, and Rights</h1>
+      <h1 className={styles.heading}>Comprehensive Legal Solutions: <br/> Protecting Your Business, Assets, and Rights</h1>
 
       <div
         className={styles.sliderContainer}
