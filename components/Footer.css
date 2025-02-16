@@ -1,5 +1,5 @@
 .footer {
-    background: #0e2b36;
+    background: #1c2b40;
     color: #ffffff;
     padding: 3rem 1.5rem;
   }
@@ -108,6 +108,9 @@
   
     .footer-socials {
       justify-content: center;
+    }
+    .footer-logo{
+        align-items: center;
     }
   }
   

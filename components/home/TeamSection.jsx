@@ -4,8 +4,8 @@ import './TeamSection.css'
 const teamMembers = [
   { name: "JK Lampart", role: "Founder", image: "/user1.jpg" },
   { name: "Lampart", role: "Lawyer", image: "/user4.jpg" },
-  { name: "Brook Seims", role: "Lawyer", image: "/user3.jpg" },
   { name: "Arlene McCoy", role: "Lawyer", image: "/user.jpg" },
+  { name: "Brook Seims", role: "Lawyer", image: "/user3.jpg" },
   { name: "Traice Dantini", role: "Lawyer", image: "/user2.jpg" },
   { name: "Kira Zayn", role: "Lawyer", image: "/user.jpg" },
 ];

@@ -22,6 +22,7 @@ const Hero = () => {
 
   return (
     <div className="hero-section">
+      <div className="overlay"></div>
       <div className="content-container">
         <motion.h1
           initial="initial"

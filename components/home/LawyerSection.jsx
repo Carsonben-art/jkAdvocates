@@ -21,7 +21,7 @@ const LawyerSection = () => {
           {[...Array(5)].map((_, index) => (
             <FaStar key={index} className="star-icon" />
           ))}
-          <br/>
+          
           <span className="rating-text">Average rating of 4.89/5 from our clients.</span>
         </div>
       </div>

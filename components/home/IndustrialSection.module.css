@@ -1,9 +1,9 @@
 .industriesSection {
-    /* max-width: 1200px; */
-    /* margin: auto; */
     padding: 4rem 2rem;
     text-align: center;
     background-color: #dbf0fd;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .subheading {
@@ -28,9 +28,9 @@
 
 .slider {
     display: flex;
-    gap: 2rem; 
-    flex-wrap: nowrap; 
-    width: calc(200%); 
+    gap: 2rem;
+    flex-wrap: nowrap;
+    width: calc(200%);
 }
 
 .industryCard {
@@ -86,5 +86,15 @@
 
     .industryCard {
         min-width: 300px; /* Adjust card width for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .industryCard {
+        min-width: 250px; /* Further reduce for mobile */
+    }
+
+    .slider {
+        gap: 1rem; /* Reduce gap for smaller screens */
     }
 }

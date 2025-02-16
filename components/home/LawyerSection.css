@@ -105,6 +105,8 @@
   
     .rating {
       justify-content: center;
+      padding-bottom: 2rem;
+      /* flex-direction: column; */
     }
   }
   
