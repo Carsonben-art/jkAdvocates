@@ -1,0 +1,68 @@
+.missionSection {
+    padding: 4rem 2rem;
+    background-color: #f5fafc;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.subheading {
+    color: #b19255;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.heading {
+    font-size: 2.5rem;
+    color: #1c2b40;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.imageGrid {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.imageWrapper {
+    flex: 1;
+    max-width: 350px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 2rem;
+    }
+
+    .imageGrid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageWrapper {
+        max-width: 100%;
+    }
+}

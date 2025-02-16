@@ -18,11 +18,10 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
-          <li><Link href="#">Home</Link></li>
-          <li><Link href="#">About</Link></li>
-          <li><Link href="#">Industry</Link></li>
-          
-          <li><Link href="#">Contact</Link></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about">About</Link></li>
+          <li><Link href="/industries">Industry</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
           <li className="nav-button">
             <Link href="#">
               <FaCommentDots /> Book a Call
