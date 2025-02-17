@@ -1,0 +1,71 @@
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    position: relative; /* Required for the pseudo-element to position itself relative to this container */
+    z-index: 1; /* Ensures the content stays above the pseudo-element */
+}
+
+.contact-form-container::before {
+    content: ""; /* Creates the pseudo-element */
+    position: absolute; /* Allows positioning relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Covers the full width of the container */
+    height: 50%; /* Covers only the top half of the container */
+    background-color: #1c2b40; /* Same background color */
+    z-index: -1; /* Places the pseudo-element behind the content */
+}
+  
+  .contact-form {
+    background: #d9e0e2;
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .contact-form textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #b1914a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #a1813f;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 500px) {
+    .contact-form {
+      padding: 20px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 14px;
+    }
+  }
+  
