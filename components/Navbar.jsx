@@ -17,10 +17,14 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         {/* Logo */}
+        
         <div className="nav-logo">
+        <Link href="/" onClick={handleLinkClick}>
           <Image src="/logo.jpg" alt="Lawyer Logo" width={40} height={40} />
+          </Link>
           <span>J.K Advocates</span>
         </div>
+        
 
         {/* Desktop Navigation */}
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
