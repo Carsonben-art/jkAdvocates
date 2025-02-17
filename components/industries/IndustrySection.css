@@ -1,0 +1,47 @@
+.industry-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 4rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.industryCard {
+    width: 350px;
+    height: 380px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardContent {
+    padding: 20px;
+}
+
+.cardTitle {
+    color: #1c2b40;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cardDesc {
+    color: #666;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+.exploreLink {
+    display: inline-block;
+    margin-top: 15px;
+    color: #1c2b40;
+    font-weight: 600;
+    text-decoration: none;
+}
