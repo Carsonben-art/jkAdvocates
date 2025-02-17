@@ -2,17 +2,10 @@
 import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect, useState } from "react";
+import Link from 'next/link';
 import styles from "./IndustrialSection.module.css";
 
-const industries = [
-  { title: "Corporate Law", desc: "Advising businesses on legal matters, including mergers and acquisitions, corporate governance, and compliance.", img: "/corporate.jpg" },
-  { title: "Litigation", desc: "Representing clients in civil and commercial disputes, including mediation and arbitration.", img: "/litigation.jpg" },
-  { title: "Real Estate Law", desc: "Handling property transactions, leasing agreements, and land disputes.", img: "/real-estate.jpg" },
-  { title: "Employment Law", desc: "Assisting with employment contracts, labor disputes, and workplace policies.", img: "/employment.jpg" },
-  { title: "Intellectual Property", desc: "Protecting intellectual property rights, including trademarks, copyrights, and patents.", img: "/intelligent.jpg" },
-  { title: "Family Law", desc: "Providing legal support for family-related matters, including divorce, custody, and inheritance issues.", img: "/family.jpg" },
-  { title: "Commercial Law", desc: "Advising on commercial contracts, trade regulations, and business disputes.", img: "/commercial.jpg" },
-];
+import industries from "@/app/data";
 
 const IndustriesSection = () => {
   const controls = useAnimation();
@@ -57,16 +50,16 @@ const IndustriesSection = () => {
               />
               <div className={styles.cardContent}>
                 <h3 className={styles.cardTitle}>{industry.title}</h3>
-                <p className={styles.cardDesc}>{industry.desc}</p>
-                <a href="#" className={styles.exploreLink}>
+                <p className={styles.cardDesc}>{industry.description}</p>
+                <Link href={`/industry/${industry.id}`} className={styles.exploreLink}>
                   Explore More →
-                </a>
+                </Link>
               </div>
             </div>
           ))}
         </motion.div>
         <div className={styles.buttonContainer}>
-          <button className={styles.viewAll}>View All</button>
+          <a href="/industries"><button className={styles.viewAll}>View All</button></a>
         </div>
       </div>
     </section>
