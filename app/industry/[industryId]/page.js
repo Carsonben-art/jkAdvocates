@@ -39,7 +39,7 @@ const IndustryPage = () => {
           <p><FaMapMarkerAlt /> Nairobi, Kenya - Westlands DTB Towers, 532</p>
           <p><FaPhoneAlt /> +2547 1233 2667</p>
           <p><FaEnvelope /> info@jklampartadvocates.com</p>
-          <a href="#" className="contact-link">Contact Us</a>
+          <a href="/contact" className="contact-link">Contact Us</a>
         </div>
       </section>
     </div>
